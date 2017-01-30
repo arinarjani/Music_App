@@ -5,6 +5,7 @@
 //
 // var albumId = '2ODvWsOgouMbaA5xf0RkJe';
 
+
 var uri = "https://api.spotify.com/v1/search?q=the+killers&type=album";
 
 // create shadow when clicking the search box
