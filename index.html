@@ -5,17 +5,26 @@
     <title>Music Search</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Signika" rel="stylesheet">
   </head>
   <body>
     <div class="container">
-      <img src="images\Spotify_Logo_CMYK_White.png" alt="spotify">
+      <img class="main-img" src="images\Spotify_Logo_CMYK_White.png" alt="spotify">
       <div class="search">
-        <input type="text" id="searchBox" autofocus placeholder="search album, artists, etc">
+        <input type="text" id="searchBox" placeholder="Type in your favorite artist, album, song...">
         <button type="button" name="button" id="searchBtn"><i class="fa fa-search" aria-hidden="true"></i></button>
       </div> <!-- end search -->
-      <div class="results">
+
+      <div id="results">
       </div> <!-- end results -->
-  </div> <!-- end container -->
+    </div> <!-- end container -->
+    <div class="welcome">
+      <h1>Welcome.</h1>
+    </div>
+    <div class="underWelcome">
+      <p>This is a music app we are working on. It will take your query and
+      deliver music information from the <a href="http://developer.spotify.com/" target="blank">Spotify API</a>.</p>
+    </div>
     <script type="text/javascript" src="script.js"></script>
   </body>
 </html>
